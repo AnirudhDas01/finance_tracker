@@ -8,10 +8,9 @@ import './utility/direct_upload'
 import './utility/custom'
 import './utility/modals'
 import './utility/init'
+import Rails from "@rails/ujs"
+import * as bootstrap from "bootstrap"
+
+Rails.start()
 
 
-$(document).on('turbo:load', function() {
-    setTimeout(function() {
-        $('#flash').slideUp();
-    }, 3000);
-});

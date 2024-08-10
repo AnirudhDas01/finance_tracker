@@ -147,6 +147,7 @@ GEM
     globalid (1.2.1)
       activesupport (>= 6.1)
     hashie (4.1.0)
+    hirb (0.7.3)
     httparty (0.22.0)
       csv
       mini_mime (>= 1.0.0)
@@ -246,6 +247,8 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    rails-ujs (0.1.0)
+      railties (>= 3.1)
     railties (7.1.3.4)
       actionpack (= 7.1.3.4)
       activesupport (= 7.1.3.4)
@@ -339,6 +342,7 @@ DEPENDENCIES
   debug
   devise (~> 4.9)
   devise-bootstrap-views (~> 1.0)
+  hirb
   httparty
   iex-ruby-client
   importmap-rails
@@ -346,6 +350,7 @@ DEPENDENCIES
   jquery-rails
   puma (>= 5.0)
   rails (~> 7.1.3, >= 7.1.3.4)
+  rails-ujs
   sassc-rails
   selenium-webdriver
   sprockets-rails
