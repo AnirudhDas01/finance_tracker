@@ -10,6 +10,10 @@ import './utility/modals'
 import './utility/init'
 import Rails from "@rails/ujs"
 import * as bootstrap from "bootstrap"
+require("jquery") 
+require("jquery_ujs")
+import $ from 'jquery';
+global.$ = jQuery;
 
 Rails.start()
 

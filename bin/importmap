@@ -2,3 +2,6 @@
 
 require_relative "../config/application"
 require "importmap/commands"
+import Rails from '@rails/ujs';
+ 
+Rails.start();
